@@ -157,3 +157,8 @@ textarea {
 .form-control {
     height: 50px;
 }
+
+.time-text {
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

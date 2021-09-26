@@ -1,5 +1,7 @@
 var saveButton = document.getElementById("saveBtn");
 
+saveButton.addEventListener = ("click", );
+
 // Function to use localStorage to set appointments that will not disappear when the page is 
 // reloaded.
 
