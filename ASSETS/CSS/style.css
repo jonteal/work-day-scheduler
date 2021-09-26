@@ -140,3 +140,14 @@ textarea {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
 }
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.time-box {
+    border: solid 1px lightgray;
+    display: flex;
+    align-items: center;
+}
