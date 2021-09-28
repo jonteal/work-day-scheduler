@@ -27,49 +27,49 @@ if(currentHour === 9){
 };
 
 if(currentHour === 10){
-    $('#0').css("background-color", "#FF0000"); 
+    $('#1').css("background-color", "#FF0000"); 
 } else if(currentHour < 10){
-    $('#0').css("background-color", "#00FF00");
+    $('#1').css("background-color", "#00FF00");
 };
 
 if(currentHour === 11){
-    $('#0').css("background-color", "#FF0000"); 
+    $('#2').css("background-color", "#FF0000"); 
 } else if(currentHour < 11){
-    $('#0').css("background-color", "#00FF00");
+    $('#2').css("background-color", "#00FF00");
 };
 
 if(currentHour === 12){
-    $('#0').css("background-color", "#FF0000"); 
+    $('#3').css("background-color", "#FF0000"); 
 } else if(currentHour < 12){
-    $('#0').css("background-color", "#00FF00");
+    $('#3').css("background-color", "#00FF00");
 };
 
-if(currentHour === 1){
-    $('#0').css("background-color", "#FF0000"); 
-} else if(currentHour < 1){
-    $('#0').css("background-color", "#00FF00");
+if(currentHour === 13){
+    $('#4').css("background-color", "#FF0000"); 
+} else if(currentHour < 13){
+    $('#4').css("background-color", "#00FF00");
 };
 
-if(currentHour === 2){
-    $('#0').css("background-color", "#FF0000"); 
-} else if(currentHour < 2){
-    $('#0').css("background-color", "#00FF00");
+if(currentHour === 14){
+    $('#5').css("background-color", "#FF0000"); 
+} else if(currentHour < 14){
+    $('#5').css("background-color", "#00FF00");
 };
 
-if(currentHour === 3){
-    $('#0').css("background-color", "#FF0000"); 
-} else if(currentHour < 3){
-    $('#0').css("background-color", "#00FF00");
+if(currentHour === 15){
+    $('#6').css("background-color", "#FF0000"); 
+} else if(currentHour < 15){
+    $('#6').css("background-color", "#00FF00");
 };
 
-if(currentHour === 4){
-    $('#0').css("background-color", "#FF0000"); 
-} else if(currentHour < 4){
-    $('#0').css("background-color", "#00FF00");
+if(currentHour === 16){
+    $('#7').css("background-color", "#FF0000"); 
+} else if(currentHour < 16){
+    $('#7').css("background-color", "#00FF00");
 };
 
-if(currentHour === 5){
-    $('#0').css("background-color", "#FF0000"); 
-} else if(currentHour < 5){
-    $('#0').css("background-color", "#00FF00");
+if(currentHour === 17){
+    $('#8').css("background-color", "#FF0000"); 
+} else if(currentHour < 17){
+    $('#8').css("background-color", "#00FF00");
 };
