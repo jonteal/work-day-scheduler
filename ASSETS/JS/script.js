@@ -7,8 +7,8 @@ var currentHour = Number(currentDay.format('H'));
 
 setInterval(updateClock, 1000);
 
+
 // Event listener to save the appointments to the schedule
-// saveButton.addEventListener = ("click", );
 
 
 // Function to use localStorage to set appointments that will not disappear when the page is 
@@ -72,5 +72,3 @@ if(currentHour === 17){
     $('#8').css("background-color", "#00FF00");
 };
 
-
-$
