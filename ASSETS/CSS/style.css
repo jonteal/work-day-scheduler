@@ -162,3 +162,16 @@ textarea {
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.past {
+    background-color: gray;
+}
+
+.present {
+    background-color: red;
+}
+
+.future {
+    background-color: green;
+}
+
