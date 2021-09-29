@@ -1,12 +1,9 @@
-var saveButton = $(".saveBtn");
 
 var currentDay = moment();
 $("#currentDay").text(currentDay.format("dddd, MMMM Do YYYY, h:mm:ss a"));
 
 var currentHour = Number(currentDay.format('H'));
 
-// var comment = document.getElementById
-// classUpdater();
 
 
 setInterval(function () {
@@ -15,13 +12,8 @@ setInterval(function () {
     // currentHour = moment().hour();
     // classUpdater();
 }, 1000);
-// Event listener to save the appointments to the schedule
 
 
-
-// function classUpdater() {
-// Function to make the current hour red, any hours that have passed the color gray,
-// and future hours green.
 
 if(currentHour === 9){   
     $("#0").addClass("present");
@@ -78,22 +70,22 @@ if(currentHour === 17){
 };
 
 
+$("#button-0").click(function() {
+    var input9Am = document.getElementById("0").value;
+    localStorage.setItem("9am", JSON.stringify(input9Am));
+})
+
+var output9Am = JSON.parse(localStorage.getItem("9am"));
+document.getElementById("0").value = output9Am;
 
 
-// Function to use localStorage to set appointments that will not disappear when the page is 
-// reloaded.
-// function savePlan() {
-//     var plan = {
-//         comment:comment.value.trim()
-//     };
-//     localStorage.setItem("plan", JSON.stringify(plan));
+$("#button-1").click(function() {
+    var input10Am = document.getElementById("1").value;
+    localStorage.setItem("10am", JSON.stringify(input10Am));
+})
 
-
-
-saveButton.on("click", function(){
-        // document.getElementById("")
-        console.log($(this).parent().previousSibling);
-    });
+var output10Am = JSON.parse(localStorage.getItem("10am"));
+document.getElementById("1").value = output10Am;
 
 
 
