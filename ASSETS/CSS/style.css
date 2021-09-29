@@ -156,6 +156,7 @@ textarea {
 
 .form-control {
     height: 50px;
+    background-color: green;
 }
 
 .time-text {
@@ -164,14 +165,12 @@ textarea {
 }
 
 .past {
-    background-color: gray;
+    background-color: rgb(250, 241, 241);
 }
 
 .present {
     background-color: red;
 }
 
-.future {
-    background-color: green;
-}
+
 
