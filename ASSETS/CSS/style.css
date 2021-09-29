@@ -42,21 +42,6 @@ textarea {
     border-top: 1px dashed #000000;
 }
 
-.past {
-    background-color: #d3d3d3;
-    color: black;
-}
-
-.present {
-    background-color: #ff6961;
-    color: black;
-}
-
-.future {
-    background-color: #77dd77;
-    color: black;
-}
-
 .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
@@ -113,21 +98,6 @@ textarea {
     border-top: 1px dashed #000000;
 }
 
-.past {
-    background-color: #d3d3d3;
-    color: black;
-}
-
-.present {
-    background-color: #ff6961;
-    color: black;
-}
-
-.future {
-    background-color: #77dd77;
-    color: black;
-}
-
 .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
@@ -154,23 +124,20 @@ textarea {
     align-items: center;
 }
 
-.form-control {
-    height: 50px;
-    background-color: green;
-}
-
 .time-text {
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.form-control {
+    height: 50px;
+    background-color: #77dd77;
+}
+
 .past {
-    background-color: rgb(250, 241, 241);
+    background-color: #d3d3d3;
 }
 
 .present {
-    background-color: red;
+    background-color: #ff6961;
 }
-
-
-
