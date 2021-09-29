@@ -3,7 +3,7 @@ var saveButton = $(".saveBtn");
 var currentDay = moment();
 $("#currentDay").text(currentDay.format("dddd, MMMM Do YYYY, h:mm:ss a"));
 
-// var currentHour = Number(currentDay.format('H'));
+var currentHour = Number(currentDay.format('H'));
 
 // var comment = document.getElementById
 // classUpdater();
@@ -11,26 +11,22 @@ $("#currentDay").text(currentDay.format("dddd, MMMM Do YYYY, h:mm:ss a"));
 
 setInterval(function () {
     currentDay = moment();
-    $("#currentDay").text(currentDay.format("dddd, MMMM Do YYYY, h:mm:ss a"));
-    currentHour = moment().hour();
-    classUpdater();
+    $("#currentDay").text(currentDay.format("dddd, MMMM Do YYYY"));
+    // currentHour = moment().hour();
+    // classUpdater();
 }, 1000);
 // Event listener to save the appointments to the schedule
 
-// var currentHour = moment().hour();
-var currentHour = 8;
-console.log(currentHour);
+
 
 // function classUpdater() {
 // Function to make the current hour red, any hours that have passed the color gray,
 // and future hours green.
-$("#0").css("background-color", "pink");
 
-if(currentHour === 9){
-    // 
-    // $("#0").css("background-color", "#ff6961");
+if(currentHour === 9){   
+    $("#0").addClass("present");
 } else if(currentHour > 9){
-    $("#0").css("background-color", "#d3d3d3");
+    $("#0").addClass("past");
 };
 
 if(currentHour === 10){
