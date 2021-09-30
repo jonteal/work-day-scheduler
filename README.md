@@ -24,3 +24,11 @@ MIT License
 Other than the main input feature that this application employs, the informative feature of it is
 the color component. It is designed to show past hour blocks as gray, the current hour block as red, 
 and the future hour blocks as green.
+
+
+## Github Repository Link
+https://github.com/jonteal/work-day-scheduler
+
+## Deployed Link
+https://jonteal.github.io/work-day-scheduler/
+
